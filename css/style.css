@@ -4,6 +4,23 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.logo img {
+  height: 180px; /* Adjust the height as needed */
+  width: auto; /* Maintains the aspect ratio */
+}
+
+:root {
+  --primary-color: #4891ff;
+  --light-color: #f4f4f6;
+  --dark-color: #111;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -43,6 +60,20 @@ img {
 .navbar ul li a {
   padding: 10px 20px;
   display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
+.navbar ul li a i {
+  margin-right: 10px;
+}
+
+.navbar ul li:last-child a {
+  margin-left: 10px;
 }
 
 /* Utility Classes */
@@ -56,4 +87,52 @@ img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  color: #333;
+  font-weight: 600px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Template */
+#main {
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main img {
+  height: 600px;
 }

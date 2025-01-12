@@ -10,11 +10,6 @@ body {
   width: 100%;
 }
 
-.logo img {
-  height: 180px; /* Adjust the height as needed */
-  width: auto; /* Maintains the aspect ratio */
-}
-
 :root {
   --primary-color: #4891ff;
   --light-color: #f4f4f6;
@@ -44,13 +39,14 @@ img {
 /* Navbar */
 .navbar {
   background: #fff;
-  padding: 20px;
+  padding: 10px;
 }
 
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 
 .navbar .main-menu ul {

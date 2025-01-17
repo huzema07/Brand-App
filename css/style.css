@@ -20,7 +20,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #fff;
+  /* background: #fff; */
+  background-color: lightblue;
 }
 
 a {
@@ -38,7 +39,8 @@ img {
 
 /* Navbar */
 .navbar {
-  background: #fff;
+  /* background: #fff; */
+  background-color: lightblue;
   padding: 10px;
 }
 
@@ -103,7 +105,7 @@ img {
   opacity: 0.8;
 }
 
-.btn-primary {
+.btn -primary {
   background: var(--primary-color);
   color: #fff;
 }
@@ -136,6 +138,7 @@ img {
   position: relative;
   z-index: 99;
   object-fit: cover;
+  pointer-events: none; /*Prevent hover-blocking */
 }
 
 #scroll-div {
@@ -189,7 +192,6 @@ img {
   animation-name: scroll;
   animation-duration: 1s;
   animation-direction: reverse;
-
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -221,8 +223,9 @@ img {
 }
 
 #text {
-  font-size: 35px;
-  /* color: rgb(74, 129, 218); */
+  font-size: 30px;
+  /* color: #4891ff; */
+  color: black;
   position: absolute;
   width: 60%;
   z-index: 999;

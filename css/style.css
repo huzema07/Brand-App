@@ -253,9 +253,10 @@ img {
     #3b82f6,
     #14b8a6
   ); /* Gradient background */
-  color: white;
+  color: black;
 
-  padding: 90px 0;
+  padding: 30px 0;
+  margin-top: 130px;
 }
 
 .footer-container {
@@ -274,15 +275,16 @@ img {
 .footer-logo h2 {
   font-size: 2rem;
   font-weight: bold;
+  color: black;
 }
 
 .footer-logo p {
   font-size: 1rem;
-  color: #d1d5db;
+  color: black;
 }
 
 .footer-socials a {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   margin-right: 15px;
   transition: color 0.3s;
@@ -314,7 +316,8 @@ img {
 }
 
 .footer-column ul li a {
-  color: #d1d5db;
+  /* color: #d1d5db; */
+  color: black;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -326,7 +329,8 @@ img {
 .footer-bottom {
   text-align: center;
   font-size: 0.875rem;
-  color: #d1d5db;
+  /* color: #d1d5db; */
+  color: black;
 }
 
 .footer-bottom p {
@@ -353,12 +357,3 @@ img {
     margin-bottom: 20px;
   }
 }
-
-/* 
-New changes to be made tomorrow inshallah */
-
-/* 
-New changes to be made tomorrow inshallah */
-
-/* 
-New changes to be made tomorrow inshallah */

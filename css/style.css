@@ -276,11 +276,13 @@ img {
   font-size: 2rem;
   font-weight: bold;
   color: black;
+  font-family: cursive;
 }
 
 .footer-logo p {
   font-size: 1rem;
   color: black;
+  font-family: cursive;
 }
 
 .footer-socials a {
@@ -357,3 +359,5 @@ img {
     margin-bottom: 20px;
   }
 }
+
+/* tomorrow big changes had to be made */

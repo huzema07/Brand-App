@@ -273,6 +273,7 @@ img {
 }
 
 /* will align the images in card */
+/* align the images in card  */
 
 .card:hover {
   transform: translateY(-5px);
